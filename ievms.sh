@@ -390,6 +390,9 @@ build_ievm() {
     if [ "${os}" == "Win10" ]
     then
         url="https://az792536.vo.msecnd.net/vms/VMBuild_20171019/VirtualBox/MSEdge/MSEdge.Win10.VirtualBox.zip"
+    elif ["${os}" == "Win7"]
+    then
+        url="https://az792536.vo.msecnd.net/vms/VMBuild_20180102/VirtualBox/IE11/IE11.Win7.VirtualBox.zip"
     else
         url="https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/${archive}"
     fi
